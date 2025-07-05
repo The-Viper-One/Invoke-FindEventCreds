@@ -1,7 +1,7 @@
 # Invoke-FindEventCreds
 PowerShell script to parse Sysmon Event ID 1 and Security Event Log ID 4688 for command line credentials
 
-Invoke-FindEventCreds connects to either the local or a remote computers Security log (Event ID 4688) and Sysmon Operational log (Event ID 1), parses each process creation event’s command‑line string, and matches it against a library of regex patterns for common binaries (net, schtasks, wmic, psexec, sc.exe, etc.). 
+`Invoke-FindEventCreds` connects to either the local or a remote computers Security log (Event ID 4688) and Sysmon Operational log (Event ID 1), parses each process creation event’s command‑line string, and matches it against a library of regex patterns for common binaries (net, schtasks, wmic, psexec, sc.exe, etc.). 
 
 ## Requirements
 
