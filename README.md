@@ -5,7 +5,7 @@ PowerShell script to parse Sysmon Event ID 1 and Security Event Log ID 4688 for 
 
 ## Requirements
 
-- Requires local administrator or SYSTEM privileges to local or remote system for successful querys
+- Requires local administrator or SYSTEM privileges to local or remote computer
 - Sysmon must be installed and configured to log ProcessCreate (Event ID 1) for the Sysmon portion to return data
 - Audit Process Creation must be enabled under Advanced Audit Policy Configuration for event ID 4688 to be populated
 
